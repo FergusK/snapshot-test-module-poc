@@ -10,5 +10,5 @@ Test Module
 
 Test fails with ResourceNotFound error
 
-AGP: 8.1.1
+AGP: 8.1.0
 
