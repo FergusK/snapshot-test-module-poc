@@ -8,7 +8,7 @@ Test Module
 - depends on App
 - calls a preview from app to test in SnapshotTest class
 
-Test fails with ResourceNotFound error
+Running `verifyPaparazziDebug` Test fails with ResourceNotFound error
 
 AGP: 8.1.0
 
