@@ -1,9 +1,8 @@
-package com.poc.testsnapshot
+package com.poc.snapshot
 
 import app.cash.paparazzi.DeviceConfig
 import app.cash.paparazzi.Paparazzi
 import com.android.ide.common.rendering.api.SessionParams
-import com.poc.snapshot.InfoImagePreview
 import org.junit.Test
 import org.junit.Rule
 
@@ -17,10 +16,10 @@ class SnapshotTest {
         showSystemUi = true
     )
 
-//    @Test
-//    fun iconComponentTest() {
-//        paparazzi.snapshot {
-//            InfoImagePreview()
-//        }
-//    }
+    @Test
+    fun iconComponentTest() {
+        paparazzi.snapshot {
+            InfoImagePreview()
+        }
+    }
 }
